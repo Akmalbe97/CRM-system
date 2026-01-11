@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+body{
+  overflow-x: hidden;
+}
+.bg-main{
+  background-color: rgba(240, 242, 250, 1);
+}
+.bg-main-lg{
+  background-color: rgba(234, 237, 250, 1);
+}
